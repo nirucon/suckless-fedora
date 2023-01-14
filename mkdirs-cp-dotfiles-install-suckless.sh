@@ -21,6 +21,8 @@ cp .bashrc ~/ &
 cp .vimrc ~/ &
 cp .bash_aliases_void ~/ &
 cp autostart.sh ~/.dwm/ &
+# if using dwm.desktop
+#cp dwm_autostart.sh &
 
 sleep 1
 echo "copy dotfiles - done!" &
@@ -28,6 +30,8 @@ echo "copy dotfiles - done!" &
 # chmod dwm autostart
 echo "chmod dwm autostart..." &
 chmod +x ~/.dwm/autostart.sh &
+# if using dwm.desktop
+#chmod +x ~/.dwm/dwm_autostart.sh &
 
 sleep 1
 echo "chmod dwm autostart - done!" &
@@ -40,27 +44,27 @@ sleep 2
 echo "cp suckless dirs - done!" &
 
 # install suckless
-echo "install suckless..." &
-cd ~/.config/Suckless/dwm/ &
-sudo make clean install &
+#echo "install suckless..." &
+#cd ~/.config/Suckless/dwm/ &
+#sudo make clean install &
 
-sleep 3
+#sleep 3
 
-cd ~/.config/Suckless/dmenu/ &
-sudo make clean install &
+#cd ~/.config/Suckless/dmenu/ &
+#sudo make clean install &
 
-sleep 3
+#sleep 3
 
-cd ~/.config/Suckless/st/ &
-sudo make clean install &
+#cd ~/.config/Suckless/st/ &
+#sudo make clean install &
 
-sleep 3
+#sleep 3
 
-cd ~/.config/Suckless/slock/ &
-sudo make clean install &
+#cd ~/.config/Suckless/slock/ &
+#sudo make clean install &
 
-sleep 3
-echo "install suckless - done!" &
+#sleep 3
+#echo "install suckless - done!" &
 
 # chmod bar
 echo "chmod bar-dwm..." &
