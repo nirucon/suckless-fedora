@@ -1,10 +1,6 @@
 # kbd
 setxkbmap se &
 
-# nvidia workstation
-#xrandr --setprovideroutputsource modesetting NVIDIA-0 
-#xrandr --auto
-
 # dwm statusbar
 /home/niru/.config/Suckless/bar-dwm/bar_dwm.sh &
 
