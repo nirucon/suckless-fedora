@@ -25,3 +25,7 @@ alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
+# pkg
+alias dnfu='sudo dnf update'
+alias dnfr='sudo dnf remove'
+alias dnfi='sudo dnf install'
