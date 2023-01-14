@@ -14,6 +14,15 @@ mkdir ~/Tempfiles &
 sleep 2
 echo "mkdirs - done!" &
 
+# ohmybash
+echo "install ohmybash..." &
+chmod +x ohmybash.sh &
+sleep 1
+./ohmybash.sh &
+sleep 3
+echo "ohmybash installed!" &
+sleep 1
+
 # cp dotfiles
 echo "copy dotfiles..." &
 cp .xinitrc ~/ &
