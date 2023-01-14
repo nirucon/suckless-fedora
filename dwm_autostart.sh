@@ -1,3 +1,6 @@
+# if using dwm.desktop
+# place in ~/.dwm/
+
 # dwm statusbar
 /home/niru/.config/Suckless/bar-dwm/bar_dwm.sh &
 
