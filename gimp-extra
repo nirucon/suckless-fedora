@@ -1,0 +1,7 @@
+sudo dnf install gimp-devel gimpfx-foundry gmic-gimp automake build-essential intltool
+
+# resynthesizer plugin build from source
+# https://github.com/bootchk/resynthesizer/
+# ./autogen.sh
+# make
+# sudo make install
